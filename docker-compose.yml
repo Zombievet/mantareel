@@ -1,0 +1,26 @@
+# Mantareel — example Docker setup. See docs/GUIDE.md for every option.
+#
+#   1. Replace each /path/to/... with a folder on this machine.
+#   2. docker compose up -d
+#   3. Open http://<this-machine's-ip>:3099
+
+services:
+  mantareel:
+    image: ghcr.io/zombievet/mantareel:1.2.0
+    container_name: mantareel
+    restart: unless-stopped
+    ports:
+      - "3099:3099"   # web app and API
+    environment:
+      TZ: "Europe/London"   # your time zone
+    volumes:
+      # Mantareel's own data: database, artwork, settings. Keep this.
+      - ./mantareel-data:/var/lib/meridian
+      # Your media, read-only. Add a line per folder.
+      - /path/to/Movies:/media/movies:ro
+      - /path/to/TV:/media/tv:ro
+      - /path/to/Music:/media/music:ro
+    devices:
+      # Intel / AMD graphics for fast transcoding. Delete these two lines if
+      # this machine has no /dev/dri.
+      - /dev/dri:/dev/dri
