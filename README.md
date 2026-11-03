@@ -16,6 +16,10 @@
   <a href="../../issues">Report a problem</a>
 </p>
 
+<p align="center">
+  <img src="assets/screenshots/home.jpg" alt="Mantareel home screen in a web browser" width="100%" />
+</p>
+
 ---
 
 > **Public beta.** Mantareel 1.2.0 is free while in beta. It runs every day on real
@@ -47,6 +51,35 @@ and summaries, and streams them to your browser, phone and TV — at home or awa
 | **No account with us** | You create accounts on *your* server. We never see them. |
 | **Works without us** | No sign-in hub, no licence server. If we vanished tomorrow, your server keeps working. |
 | **Your media stays yours** | Mantareel never hosts, uploads or relays your media. |
+
+## Screenshots
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/screenshots/film.jpg" alt="Film page with poster, summary and cast" /></td>
+    <td width="50%"><img src="assets/screenshots/player.jpg" alt="Player with 5.1 audio and full controls" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Every film gets its poster, artwork, cast and ratings</sub></td>
+    <td align="center"><sub>The player: audio and subtitle tracks, quality, watch together</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/screenshots/library.jpg" alt="Movies library grid with filters and sorting" /></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><sub>Browse by decade, quality, rating and genre</sub></td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="assets/screenshots/phone-home.jpg" alt="Mantareel home screen on a phone" width="32%" />
+  &nbsp;
+  <img src="assets/screenshots/phone-film.jpg" alt="Film page on a phone" width="32%" />
+</p>
+<p align="center"><sub>The same library on your phone</sub></p>
+
+<p align="center"><sub>Screenshots use Blender Studio's open movies (<a href="https://studio.blender.org/films/">studio.blender.org</a>, CC BY) as a demo library.
+Artwork © Blender Foundation, from <a href="https://www.themoviedb.org/">TMDB</a>.</sub></p>
 
 ## Download
 
